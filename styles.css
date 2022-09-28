@@ -1,0 +1,85 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(115deg, rgba(80, 58, 50, 0.7), rgba(136, 50, 80, 0.3)), url(https://i.ytimg.com/vi/h-PfBxoMq_4/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: white;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid white;
+    color: #ffffff;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    vertical-align: middle;
+    margin-bottom: 0.5rem;
+}
+
+.input-text {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    color: inherit;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-image: linear-gradient(115deg, rgba(80, 58, 50, 0.9), rgba(136, 50, 80, 0.6)), url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F01%2F21%2Fhow-to-store-coffee-beans-FT-BLOG0121.jpg&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
